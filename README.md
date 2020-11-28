@@ -4,22 +4,20 @@ This is homework for MSU Bootcamp.  The repository contains a vbs file that can 
 
 The program works on excel files  containing the following information, with the info for each year on a separate worksheet
 
-<ticker>	<date>	<open>	<high>	<low>	<close>	<vol>		
+ticker, date, open price, high price, low price, 	close	volume		
 
-the program loops through each worksheet, doing the following
+The program loops through each worksheet, doing the following
 
 1.  Scans through  ticker symbols <ticker>, consolidating the same symbols into a new row
 2.  For each symbol it calculates: 	Total volume, Yearly change, Percent change and outputs these in the consolidated symbol rows
 3.  Highlights positive (green) and negative (red) annual stock changes
 4.  Creates a short summary table showing the stocks with highest volume, and highest percent increase and highest percent decrease each year.
 
-two excel sheets are included
+two excel sheets are included in the repository in order to test the program.
 
-1. A shoerter 'tester file' called alphabetical tester
-and
+1. A short 'tester file' called alphabetical tester
+
 2. a longer file (called mutiple year)
-
-used to test the program.
 
 Each of these files had one or two stocks that had zeros for all or most of the categories
 
@@ -37,3 +35,5 @@ then using the open and close price for these stocks resulted in a 0% change (wh
 I then reset the ones to zeros at the end of the script.
 
 This worked for these two files, but could be complicated if only the open price was zero.
+
+Also included are png files of screenshots for the years 2014,15 and 16 following analysis of the 'multiple year' file.
