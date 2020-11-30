@@ -1,5 +1,14 @@
 # VBA-Challenge
 
+updated files added 11/29/2020
+
+program was modified to deal with zero values a bit better.
+
+Still not perfect.  Stocks that start at zero, then have positive values midyear values (e.g. CBO and PLNT) still cause some issues.
+
+But modified code seems to show the correct higest and lowest annual gains.
+
+
 This is homework for MSU Bootcamp.  The repository contains a vbs file that can be used to analyze an excel file containing information about stock prices. 
 
 The program works on excel files  containing the following information, with the info for each year on a separate worksheet
